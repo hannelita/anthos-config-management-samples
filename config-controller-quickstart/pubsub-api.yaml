@@ -18,4 +18,7 @@ kind: Service
 metadata:
   name: pubsub.googleapis.com
   namespace: config-control
+spec:
+  projectRef:
+    external: projects/pissenlit
 # [END anthosconfig_config_controller_quickstart_pubsub_api]
